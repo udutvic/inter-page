@@ -1,4 +1,4 @@
-// Массив стилів для різних елементів
+//NOTE - Массив стилів для різних елементів
 const stylesElements = [
   { selector: "*", styles: { "box-sizing": "border-box", margin: "0", padding: "0" } },
   {

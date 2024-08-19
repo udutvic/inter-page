@@ -1,4 +1,4 @@
-// Функція для створення елементів на основі структури
+//NOTE - Функція для створення елементів на основі структури
 function createElementFromStructure(structure) {
   const element = document.createElement(structure.type);
 

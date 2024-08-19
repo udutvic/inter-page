@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // Структура сторінки
+ //NOTE - Структура сторінки
   const pageStructure = {
     type: "section",
     className: "page-content",
@@ -62,12 +62,12 @@ document.addEventListener("DOMContentLoaded", () => {
     ],
   };
 
-  // Створюємо та додаємо елементи на сторінку
+  //NOTE - Створення та додавання елементів на сторінку
   document.body.appendChild(createElementFromStructure(pageStructure));
   applyStyles();
   handleButtonEvents();
 
-  // Приховати кнопку при завантаженні сторінки
+  //NOTE - Приховати кнопку при завантаженні сторінки
   const titleButton = document.querySelector(".section-title-button");
   if (titleButton) {
     titleButton.style.display = "none";
