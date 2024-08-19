@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
             },
             {
               type: "a",
-              href: "https://github.com/udutvic/rpsls-game-ukr",
+              href: "https://github.com/udutvic/inter-page",
               target: "_blank",
               text: "Udut Viktor"
             }
